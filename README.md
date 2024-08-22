@@ -12,7 +12,7 @@ This Discord bot allows you to send direct messages to all users. Developed usin
 
 ## Prerequisites
 
--   Node.js (version 18 or higher recommended)
+-   `Node.js` (version 18 or higher recommended)
 -   `discord.js` (version 14)
 
 ## Installation
