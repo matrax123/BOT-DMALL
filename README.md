@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce bot Discord propose plusieurs fonctionnalités utiles, dont la vérification de la latence, l'affichage des statistiques et la possibilité d'envoyer des messages directs à tous les utilisateurs. Développé avec `discord.js`, il interagit avec l'API Discord.
+Ce bot Discord permet d'envoyer des messages directs à tous les utilisateurs. Développé avec `discord.js`, il interagit avec l'API Discord.
 
 ## Fonctionnalités
 
@@ -65,12 +65,10 @@ Ce bot Discord propose plusieurs fonctionnalités utiles, dont la vérification 
     - `stats` : Affiche les statistiques du bot.
     - `dm` : Permet d'envoyer un message à tous les utilisateurs du bot. Cette commande nécessite des permissions d'administrateur.
 
-## Contribuer
-
-1. Téléchargez les fichiers depuis le dépôt.
-2. Modifiez le code ou ajoutez des fonctionnalités.
-3. Envoyez vos modifications via une Pull Request si vous le souhaitez.
-
 ## Auteurs
 
 - [matrax.dev](https://github.com/matrax123)
+
+## Support 
+
+- [Discord server](https://discord.gg/2K2N9zU4nE)
