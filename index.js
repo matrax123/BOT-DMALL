@@ -44,7 +44,11 @@ const commands = {
                     value: `\`${pingAPI}ms\``,
                     inline: true,
                 },
-                { name: "Bot Latency", value: `\`${pingBot}ms\``, inline: true }
+                {
+                    name: "Bot Latency",
+                    value: `\`${pingBot}ms\``,
+                    inline: true,
+                }
             );
 
         await message.reply({ embeds: [pingEmbed] });
