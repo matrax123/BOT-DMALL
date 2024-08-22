@@ -2,70 +2,70 @@
 
 ## Description
 
-Ce bot Discord permet d'envoyer des messages directs à tous les utilisateurs. Développé avec `discord.js`, il interagit avec l'API Discord.
+This Discord bot allows you to send direct messages to all users. Developed using `discord.js`, it interacts with the Discord API.
 
-## Fonctionnalités
+## Features
 
-- `ping` : Affiche la latence de l'API et la latence du bot.
-- `stats` : Affiche les statistiques du bot, telles que le nombre de serveurs et d'utilisateurs.
-- `dm` : Permet aux administrateurs d'envoyer un message direct à tous les utilisateurs du bot.
+- `ping`: Displays the API latency and the bot's latency.
+- `stats`: Shows the bot's statistics, such as the number of servers and users.
+- `dm`: Allows administrators to send a direct message to all users of the bot.
 
-## Prérequis
+## Prerequisites
 
-- Node.js (version 18 ou ultérieure recommandée)
-- `discord.js` (version 14 ou ultérieure)
+- Node.js (version 18 or later recommended)
+- `discord.js` (version 14 or later)
 
 ## Installation
 
-1. **Téléchargez les fichiers nécessaires** :
+1. **Download the necessary files**:
 
-    Téléchargez les fichiers suivants depuis le dépôt ou le lien fourni :
+    Download the following files from the repository or provided link:
 
-    - `index.js` : Le fichier principal du bot.
-    - `config.json` : Contient les informations de configuration du bot (token et préfixe).
-    - `package.json` : Définit les dépendances du projet.
-    - `package-lock.json` : Assure la cohérence des versions des dépendances.
+    - `index.js`: The main file of the bot.
+    - `config.json`: Contains the bot's configuration information (token and prefix).
+    - `package.json`: Defines the project's dependencies.
+    - `package-lock.json`: Ensures the consistency of dependency versions.
 
-    Assurez-vous que ces fichiers sont placés dans le même répertoire.
+    Ensure these files are placed in the same directory.
 
-2. **Installez les dépendances** :
+2. **Install the dependencies**:
 
-    Assurez-vous que Node.js est installé sur votre machine. Ensuite, ouvrez un terminal, naviguez jusqu'au répertoire contenant les fichiers téléchargés, et exécutez la commande suivante :
+    Make sure Node.js is installed on your machine. Then, open a terminal, navigate to the directory containing the downloaded files, and run the following command:
 
     ```bash
     npm install
     ```
 
-3. **Configurez le bot** :
+3. **Configure the bot**:
 
-    Modifier le fichier `config.json` dans le répertoire racine du projet avec le contenu suivant :
+    Edit the `config.json` file in the root directory of the project with the following content:
 
     ```json
     {
-        "TOKEN": "VOTRE_TOKEN_DISCORD",
-        "PREFIX": "VOTRE_PREFIX"
+        "TOKEN": "YOUR_DISCORD_TOKEN",
+        "PREFIX": "YOUR_PREFIX"
     }
     ```
 
-    Remplacez `VOTRE_TOKEN_DISCORD` par le token de votre bot Discord et `VOTRE_PREFIX` par le préfixe des commandes que vous souhaitez utiliser.
+    Replace `YOUR_DISCORD_TOKEN` with your Discord bot token and `YOUR_PREFIX` with the command prefix you want to use.
 
-## Utilisation
+## Usage
 
-1. **Démarrez le bot** :
+1. **Start the bot**:
 
-    Avec les fichiers configurés et les dépendances installées, lancez le bot en exécutant la commande suivante dans le terminal :
+    With the files configured and dependencies installed, start the bot by running the following command in the terminal:
 
     ```bash
     node index.js
     ```
 
-2. **Envoyez les commandes suivantes dans un serveur où le bot est présent** :
+2. **Send the following commands in a server where the bot is present**:
 
-    - `ping` : Affiche la latence du bot.
-    - `stats` : Affiche les statistiques du bot.
-    - `dm` : Permet d'envoyer un message à tous les utilisateurs du bot. Cette commande nécessite des permissions d'administrateur.
+    - `ping`: Displays the bot's latency.
+    - `stats`: Shows the bot's statistics.
+    - `dm`: Allows you to send a message to all users of the bot. This command requires administrative permissions.
 
-## Auteurs
+## Authors
 
 - [matrax.dev](https://github.com/matrax123)
 
