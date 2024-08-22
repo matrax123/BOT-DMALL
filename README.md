@@ -6,14 +6,14 @@ This Discord bot allows you to send direct messages to all users. Developed usin
 
 ## Features
 
-- `ping`: Displays the API latency and the bot's latency.
-- `stats`: Shows the bot's statistics, such as the number of servers and users.
-- `dm`: Allows administrators to send a direct message to all users of the bot.
+-   `ping`: Displays the API latency and the bot's latency.
+-   `stats`: Shows the bot's statistics, such as the number of servers and users.
+-   `dm`: Allows administrators to send a direct message to all users of the bot.
 
 ## Prerequisites
 
-- Node.js (version 18 or later recommended)
-- `discord.js` (version 14 or later)
+-   Node.js (version 18 or higher recommended)
+-   `discord.js` (version 14)
 
 ## Installation
 
@@ -67,8 +67,8 @@ This Discord bot allows you to send direct messages to all users. Developed usin
 
 ## Authors
 
-- [matrax.dev](https://github.com/matrax123)
+-   [matrax.dev](https://github.com/matrax123)
 
-## Support 
+## Support
 
-- [Discord server](https://discord.gg/2K2N9zU4nE)
+-   [Discord server](https://discord.gg/2K2N9zU4nE)
